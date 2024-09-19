@@ -22,6 +22,7 @@ const App = () => {
   };
   return (
     <div>
+      <p>Search Movie</p>
         {/* Do not remove the main div */}
 <SearchBar onSearch={searchMovies} />
 {error && <Error />}
