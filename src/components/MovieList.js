@@ -6,8 +6,12 @@ const MovieList = ({ movies }) => {
     <div>
       {movies.map((movie) => (
         <div key={movie.imdbID}>
+          <ul>
+            <li>
           <h3>{movie.Title} ({movie.Year})</h3>
           <img src={movie.Poster} alt={movie.Title} />
+            </li>
+          </ul>
         </div>
       ))}
     </div>
