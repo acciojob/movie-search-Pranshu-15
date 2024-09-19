@@ -23,7 +23,6 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-<h1>Hello</h1>
 <SearchBar onSearch={searchMovies} />
 {error && <Error />}
 <MovieList movies={movies} />
